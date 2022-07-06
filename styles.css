@@ -1,0 +1,40 @@
+*
+  {
+    text-align: center;
+    background: burlywood;
+   }
+ 
+/*type selector*/
+   h1 {   
+    color: black;
+    text-decoration: underline;
+    
+  }
+
+.alert-text {
+    color: black;
+}
+.big-letters {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 30px;
+    font-weight: bold; 
+}
+.list-recipe {
+  text-align: left;
+}
+
+
+#title {
+    background-color: rgb(120, 255, 50);
+}
+
+/*group declarations of selectors together with a comma! */
+
+.alert-text, .big-letters {
+    background-color: bisque;
+}
+
+img {
+    height: auto;
+    width: 500px;
+}
